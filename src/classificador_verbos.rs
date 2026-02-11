@@ -1,16 +1,9 @@
 use hashbrown::HashMap;
-use std::fs::File;
 
 use super::padroes_conjugacao::Padrao;
 
-use serde_json;
-
-fn classificar_verbo(verbo: String) -> Option<Padrao> {
+pub fn classificar_verbo(padroes_hashmap: &HashMap<String, Padrao>, verbo: &str) -> Option<Padrao> {
     let verbo = verbo.to_uppercase();
-    let padroes_hashmap: HashMap<String, Padrao> = serde_json::from_reader(
-        File::open("src/padroes_conjugacao.json").expect("No padroes_conjugacao.json file found"),
-    )
-    .expect("padroes_conjugacao.json is not valid JSON");
 
     // let all_patterns = padroes_hashmap.keys();
 
@@ -30,16 +23,30 @@ fn classificar_verbo(verbo: String) -> Option<Padrao> {
 }
 
 mod tests {
-    use crate::classificador_verbos::classificar_verbo;
+    use crate::{classificador_verbos::classificar_verbo, padroes_conjugacao::Padrao};
+    use hashbrown::HashMap;
+    use std::fs::File;
 
     #[test]
-    fn verb_that_is_pattern() {
-        classificar_verbo("ABAULAR".to_string());
+    fn classificar_verbo_exatamente_padrao() {
+        let padroes_hashmap: HashMap<String, Padrao> = serde_json::from_reader(
+            File::open("src/padroes_conjugacao.json")
+                .expect("No padroes_conjugacao.json file found"),
+        )
+        .expect("padroes_conjugacao.json is not valid JSON");
+
+        classificar_verbo(&padroes_hashmap, "ABAULAR");
     }
 
     #[test]
-    fn verb_that_is_not_a_pattern() {
-        let result = classificar_verbo("amar".to_string()).unwrap();
+    fn classificar_verbo_nao_exatamente_padrao() {
+        let padroes_hashmap: HashMap<String, Padrao> = serde_json::from_reader(
+            File::open("src/padroes_conjugacao.json")
+                .expect("No padroes_conjugacao.json file found"),
+        )
+        .expect("padroes_conjugacao.json is not valid JSON");
+
+        let result = classificar_verbo(&padroes_hashmap, "amar").unwrap();
         println!("{:#?}", result);
     }
 }
