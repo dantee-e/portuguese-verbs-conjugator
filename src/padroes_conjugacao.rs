@@ -205,6 +205,9 @@ pub struct Terminacoes {
     #[serde(rename = "participio_irregular")]
     pub participio_irregular: Option<TerminacaoRule>,
 
+    #[serde(rename = "participio_regular")]
+    pub participio_regular: Option<TerminacaoRule>,
+
     #[serde(rename = "imperativo_vos")]
     pub imperativo_vos: Option<TerminacaoRule>,
 

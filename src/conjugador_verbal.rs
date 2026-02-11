@@ -22,16 +22,39 @@ macro_rules! tentar_tempo_verbal {
             };
 
             let until = $verb.len() - terminacao.remover_chars as usize;
-            println!("until is {until}, remover_chars is {}", terminacao.remover_chars);
             let root = &$verb[0..until];
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
-            $conjugacoes_vec.push(conjugated_verb);
+            $conjugacoes_vec.push((stringify!($tempo_verbal).to_string(), conjugated_verb));
         )+
+
+        // Participios (casos especiais)
+
+        // Participio Regular
+        if let Some(terminacao) = &$padrao.terminacoes.participio_regular {
+            let until = $verb.len() - terminacao.remover_chars as usize;
+            let root = &$verb[0..until];
+            let conjugated_verb = format!("{root}{}", terminacao.terminacao);
+            $conjugacoes_vec.push(("participio_regular".to_string(), conjugated_verb));
+        }
+
+        // Participio Irregular
+        if let Some(terminacao) = &$padrao.terminacoes.participio_irregular {
+            let until = $verb.len() - terminacao.remover_chars as usize;
+            let root = &$verb[0..until];
+            let conjugated_verb = format!("{root}{}", terminacao.terminacao);
+            $conjugacoes_vec.push(("participio_irregular".to_string(), conjugated_verb));
+        }
+
+
     };
 }
 
-pub fn conjugar(verb: String, padrao: &Padrao, padrao_infinitivo: &Padrao) -> Vec<String> {
-    let mut conjugacoes: Vec<String> = Vec::new();
+pub fn conjugar(
+    verb: String,
+    padrao: &Padrao,
+    padrao_infinitivo: &Padrao,
+) -> Vec<(String, String)> {
+    let mut conjugacoes: Vec<(String, String)> = Vec::new();
 
     tentar_tempo_verbal!(
         conjugacoes,
@@ -100,7 +123,6 @@ pub fn conjugar(verb: String, padrao: &Padrao, padrao_infinitivo: &Padrao) -> Ve
             infinitivo_pessoal_vos,
             infinitivo_pessoal_eles,
             imperativo_tu,
-            participio_irregular,
             imperativo_vos,
             gerundio
         )
@@ -132,8 +154,8 @@ mod tests {
         let padrao_infinitivo = from_ending(&padroes_hashmap, terminacao_infinitivo).unwrap();
         let result = conjugar(verb, &padrao, &padrao_infinitivo);
 
-        for conjugacao in result {
-            println!("{conjugacao}");
+        for (tempo_verbal, conjugacao) in result {
+            println!("{tempo_verbal}: {conjugacao}");
         }
     }
 }

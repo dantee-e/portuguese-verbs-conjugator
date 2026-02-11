@@ -65,10 +65,9 @@ TEMPOS_PESSOAS = {
     58: "infinitivo_pessoal_nos",
     59: "infinitivo_pessoal_vos",
     60: "infinitivo_pessoal_eles",
-    61: "imperativo_tu",
-    62: "participio_irregular",
-    63: "imperativo_vos",
-    64: "gerundio",
+    61: "gerundio",
+    63: "imperativo_tu",
+    64: "imperativo_vos",
 }
 
 padroes_variaveis = [
@@ -88,6 +87,7 @@ padroes_variaveis = [
     "GER",
     "'´-GUAR",
     "QUERER",
+    "POR",
 ]
 
 
@@ -98,7 +98,7 @@ def extrair_padroes(arquivo_excel):
     resultado = {}
 
     for _, row in df_padroes.iterrows():
-        verbo_modelo = row["Verbo"]
+        verbo_modelo: str = row["Verbo"]
         nome_padrao = row["Padrão"]
 
         # Pula linhas invalidas, nao sei se tem alguma
@@ -139,6 +139,10 @@ def extrair_padroes(arquivo_excel):
         terminacoes = {}
 
         for pos in range(1, 65):
+            # Pular participio, caso especial
+            if pos == 62:
+                continue
+
             col_numero_nome = f"Coluna{pos * 2 + 1}"
             col_terminacao = str(pos)
 
@@ -168,23 +172,79 @@ def extrair_padroes(arquivo_excel):
 
                 # Adicionar ao dicionário
                 terminacoes[tempo_pessoa] = {
-                    "remover_chars": int(num_chars) if pd.notna(num_chars) else 0,
+                    "remover_chars": int(num_chars) if pd.notna(num_chars) else 2,
                     "terminacao": terminacao,
                 }
 
-        # Adicionar observações se existirem
-        observacoes = row.get("Observações", None)
-        if pd.notna(observacoes):
-            observacoes = str(observacoes).strip()
-        else:
-            observacoes = None
+        # Participios
+
+        col_terminacao = "62"
+        participio_regular: bool = bool(
+            row["Coluna125"] if pd.notna(row["Coluna125"]) else False
+        )
+        participio_irregular: int = int(
+            row["Coluna126"] if pd.notna(row["Coluna126"]) else 0
+        )
+        terminacao = row[col_terminacao]
+
+        # Pegar valores
+        terminacao_regular = None
+        match verbo_modelo[-2]:
+            case "a":
+                terminacao_regular = "ado"
+            case "i":
+                terminacao_regular = "ido"
+            case "e":
+                terminacao_regular = "ido"
+            # gambiarra para o por
+            case "o":
+                terminacao_regular = "osto"
+
+        if participio_regular:
+            terminacoes["participio_regular"] = {
+                "remover_chars": 2,
+                "terminacao": terminacao_regular,
+            }
+        if participio_irregular:
+            terminacoes["participio_irregular"] = {
+                "remover_chars": participio_irregular,
+                "terminacao": terminacao,
+            }
+
+        if padrao_id in (["ER", "IR"]):
+            terminacoes["participio_regular"] = {
+                "remover_chars": 2,
+                "terminacao": "ido",
+            }
+        elif padrao_id == "AR":
+            terminacoes["participio_regular"] = {
+                "remover_chars": 2,
+                "terminacao": "ado",
+            }
+        elif padrao_id == "PÔR":  # ← ADICIONAR
+            terminacoes["participio_regular"] = {
+                "remover_chars": 2,
+                "terminacao": "osto",
+            }
+        elif participio_regular and terminacao_regular:  # ← ADICIONAR condição
+            # Para outros casos que tenham participio_regular marcado
+            terminacoes["participio_regular"] = {
+                "remover_chars": 2,
+                "terminacao": terminacao_regular,
+            }
+
+        # observacoes = row.get("Observações", None)
+        # if pd.notna(observacoes):
+        #     observacoes = str(observacoes).strip()
+        # else:
+        #     observacoes = None
 
         # Adicionar padrão ao resultado
         resultado[padrao_id] = {
             "nome": padrao_id,
             "verbo_modelo": verbo_modelo,
             "terminacoes": terminacoes,
-            "observacoes": observacoes,
+            # "observacoes": observacoes,
         }
 
     return resultado
@@ -200,7 +260,7 @@ def salvar_json(dados, arquivo_saida, indent=2):
 
 
 def main():
-    arquivo_entrada = "conjugador-de-verbos-desprotegido.xlsx"
+    arquivo_entrada = "conjugador-de-verbos-1-2-2-excelled.xlsx"
 
     # Arquivos de saída
     arquivo_completo = "padroes_conjugacao.json"
