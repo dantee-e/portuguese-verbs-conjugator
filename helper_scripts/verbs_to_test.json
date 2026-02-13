@@ -1,0 +1,7126 @@
+{
+  "fazer": {
+    "verb": {
+      "infinitive": "fazer",
+      "lang": "pt",
+      "predicted": false,
+      "stem": "f",
+      "template": "f:azer",
+      "translation_en": ""
+    },
+    "moods": {
+      "indicativo": {
+        "presente": [
+          {
+            "c": [
+              "eu faço"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu fazes"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele faz"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela faz"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você faz"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fazemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fazeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles fazem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas fazem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês fazem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "eu fazia"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu fazias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele fazia"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela fazia"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você fazia"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fazíamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fazíeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles faziam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas faziam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês faziam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu fizera"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu fizeras"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele fizera"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela fizera"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você fizera"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fizéramos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fizéreis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles fizeram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas fizeram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês fizeram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu fiz"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu fizeste"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele fez"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela fez"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você fez"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fizemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fizestes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles fizeram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas fizeram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês fizeram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente": [
+          {
+            "c": [
+              "eu farei"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu farás"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele fará"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela fará"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você fará"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós faremos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fareis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles farão"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas farão"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês farão"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito-composto": [
+          {
+            "c": [
+              "eu tenho feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tens feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tem feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tem feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tem feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós temos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tendes feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles têm feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas têm feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês têm feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-composto": [
+          {
+            "c": [
+              "eu tinha feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tinhas feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tinha feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tinha feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tinha feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tínhamos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tínheis feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tinham feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tinham feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tinham feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-anterior": [
+          {
+            "c": [
+              "eu tivera feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveras feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivera feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivera feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivera feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéramos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivéreis feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiveram feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiveram feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiveram feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente-composto": [
+          {
+            "c": [
+              "eu terei feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terás feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele terá feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela terá feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você terá feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teremos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tereis feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles terão feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas terão feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês terão feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "condicional": {
+        "futuro-do-pretérito": [
+          {
+            "c": [
+              "eu faria"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu farias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele faria"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela faria"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você faria"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós faríamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós faríeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles fariam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas fariam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês fariam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-pretérito-composto": [
+          {
+            "c": [
+              "eu teria feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terias feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele teria feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela teria feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você teria feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teríamos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós teríeis feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles teriam feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas teriam feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês teriam feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "subjuntivo": {
+        "presente": [
+          {
+            "c": [
+              "que eu faça"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "que tu faças"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "que ele faça"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "que ela faça"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "que você faça"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "que nós façamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "que vós façais"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "que eles façam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "que elas façam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "que vocês façam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "se eu fizesse"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "se tu fizesses"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "se ele fizesse"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "se ela fizesse"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "se você fizesse"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "se nós fizéssemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "se vós fizésseis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "se eles fizessem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "se elas fizessem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "se vocês fizessem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro": [
+          {
+            "c": [
+              "quando eu fizer"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "quando tu fizeres"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "quando ele fizer"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "quando ela fizer"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "quando você fizer"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "quando nós fizermos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "quando vós fizerdes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "quando eles fizerem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "quando elas fizerem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "quando vocês fizerem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu tenha feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tenhas feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tenha feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tenha feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tenha feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tenhamos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tenhais feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tenham feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tenham feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tenham feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu tivesse feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tivesses feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivesse feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivesse feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivesse feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéssemos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivésseis feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tivessem feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tivessem feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tivessem feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-composto": [
+          {
+            "c": [
+              "eu tiver feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveres feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tiver feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tiver feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tiver feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivermos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tiverdes feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiverem feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiverem feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiverem feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "infinitivo": {
+        "infinitivo-pessoal-presente": [
+          {
+            "c": [
+              "por fazer eu"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "por fazeres tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "por fazer ele"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "por fazer ela"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "por fazer você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "por fazermos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "por fazerdes vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "por fazerem eles"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "por fazerem elas"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "por fazerem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "infinitivo": [
+          {
+            "c": [
+              "fazer"
+            ]
+          }
+        ],
+        "infinitivo-pessoal-composto": [
+          {
+            "c": [
+              "ter feito"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "teres feito"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ter feito"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ter feito"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "ter feito"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "termos feito"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "terdes feito"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "terem feito"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "terem feito"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "terem feito"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "imperativo": {
+        "afirmativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "faze tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "faça você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "façamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "fazei vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "façam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "negativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "não faças tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "não faça você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "não façamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "não façais vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "não façam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "gerúndio": {
+        "gerúndio": [
+          {
+            "c": [
+              "fazendo"
+            ]
+          }
+        ]
+      },
+      "particípio": {
+        "particípio": [
+          {
+            "c": [
+              "feito"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "cansar": {
+    "verb": {
+      "infinitive": "cansar",
+      "lang": "pt",
+      "predicted": false,
+      "stem": "cans",
+      "template": "compr:ar",
+      "translation_en": ""
+    },
+    "moods": {
+      "indicativo": {
+        "presente": [
+          {
+            "c": [
+              "eu canso"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansas"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansa"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansa"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansa"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cansamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansais"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "eu cansava"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansavas"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansava"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansava"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansava"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cansávamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansáveis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansavam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansavam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansavam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu cansara"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansaras"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansara"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansara"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansara"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cansáramos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansáreis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansaram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansaram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansaram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu cansei"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansaste"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansou"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansou"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansou"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cans"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansastes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansaram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansaram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansaram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente": [
+          {
+            "c": [
+              "eu cansarei"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansarás"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansará"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansará"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansará"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cansaremos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansareis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansarão"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansarão"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansarão"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito-composto": [
+          {
+            "c": [
+              "eu tenho cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tens cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tem cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tem cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tem cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós temos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tendes cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles têm cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas têm cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês têm cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-composto": [
+          {
+            "c": [
+              "eu tinha cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tinhas cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tinha cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tinha cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tinha cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tínhamos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tínheis cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tinham cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tinham cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tinham cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-anterior": [
+          {
+            "c": [
+              "eu tivera cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveras cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivera cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivera cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivera cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéramos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivéreis cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiveram cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiveram cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiveram cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente-composto": [
+          {
+            "c": [
+              "eu terei cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terás cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele terá cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela terá cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você terá cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teremos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tereis cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles terão cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas terão cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês terão cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "condicional": {
+        "futuro-do-pretérito": [
+          {
+            "c": [
+              "eu cansaria"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu cansarias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele cansaria"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela cansaria"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você cansaria"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós cansaríamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós cansaríeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles cansariam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas cansariam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês cansariam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-pretérito-composto": [
+          {
+            "c": [
+              "eu teria cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terias cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele teria cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela teria cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você teria cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teríamos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós teríeis cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles teriam cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas teriam cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês teriam cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "subjuntivo": {
+        "presente": [
+          {
+            "c": [
+              "que eu canse"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "que tu canses"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "que ele canse"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "que ela canse"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "que você canse"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "que nós cansemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "que vós canseis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "que eles cansem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "que elas cansem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "que vocês cansem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "se eu cansasse"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "se tu cansasses"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "se ele cansasse"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "se ela cansasse"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "se você cansasse"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "se nós cansássemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "se vós cansásseis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "se eles cansassem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "se elas cansassem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "se vocês cansassem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro": [
+          {
+            "c": [
+              "quando eu cansar"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "quando tu cansares"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "quando ele cansar"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "quando ela cansar"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "quando você cansar"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "quando nós cansarmos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "quando vós cansardes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "quando eles cansarem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "quando elas cansarem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "quando vocês cansarem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu tenha cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tenhas cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tenha cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tenha cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tenha cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tenhamos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tenhais cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tenham cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tenham cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tenham cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu tivesse cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tivesses cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivesse cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivesse cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivesse cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéssemos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivésseis cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tivessem cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tivessem cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tivessem cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-composto": [
+          {
+            "c": [
+              "eu tiver cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveres cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tiver cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tiver cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tiver cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivermos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tiverdes cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiverem cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiverem cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiverem cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "infinitivo": {
+        "infinitivo-pessoal-presente": [
+          {
+            "c": [
+              "por cansar eu"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "por cansares tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "por cansar ele"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "por cansar ela"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "por cansar você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "por cansarmos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "por cansardes vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "por cansarem eles"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "por cansarem elas"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "por cansarem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "infinitivo": [
+          {
+            "c": [
+              "cansar"
+            ]
+          }
+        ],
+        "infinitivo-pessoal-composto": [
+          {
+            "c": [
+              "ter cansado"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "teres cansado"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ter cansado"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ter cansado"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "ter cansado"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "termos cansado"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "terdes cansado"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "terem cansado"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "terem cansado"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "terem cansado"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "imperativo": {
+        "afirmativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "cansa tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "canse você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "cansemos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "cansai vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "cansem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "negativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "não canses tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "não canse você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "não cansemos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "não canseis vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "não cansem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "gerúndio": {
+        "gerúndio": [
+          {
+            "c": [
+              "cansando"
+            ]
+          }
+        ]
+      },
+      "particípio": {
+        "particípio": [
+          {
+            "c": [
+              "cansado"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "ser": {
+    "verb": {
+      "infinitive": "ser",
+      "lang": "pt",
+      "predicted": false,
+      "stem": "",
+      "template": ":ser",
+      "translation_en": ""
+    },
+    "moods": {
+      "indicativo": {
+        "presente": [
+          {
+            "c": [
+              "eu sou"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu és"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele é"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela é"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você é"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós somos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós sois"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles são"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas são"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês são"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "eu era"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu eras"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele era"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela era"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você era"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós éramos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós éreis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles eram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas eram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês eram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu fora"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu foras"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele fora"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela fora"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você fora"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fôramos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fôreis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles foram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas foram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês foram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu fui"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu foste"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele foi"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela foi"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você foi"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós fomos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós fostes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles foram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas foram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês foram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente": [
+          {
+            "c": [
+              "eu serei"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu serás"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele será"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela será"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você será"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós seremos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós sereis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles serão"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas serão"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês serão"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito-composto": [
+          {
+            "c": [
+              "eu tenho sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tens sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tem sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tem sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tem sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós temos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tendes sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles têm sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas têm sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês têm sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-composto": [
+          {
+            "c": [
+              "eu tinha sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tinhas sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tinha sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tinha sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tinha sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tínhamos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tínheis sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tinham sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tinham sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tinham sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-anterior": [
+          {
+            "c": [
+              "eu tivera sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveras sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivera sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivera sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivera sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéramos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivéreis sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiveram sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiveram sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiveram sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente-composto": [
+          {
+            "c": [
+              "eu terei sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terás sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele terá sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela terá sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você terá sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teremos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tereis sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles terão sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas terão sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês terão sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "condicional": {
+        "futuro-do-pretérito": [
+          {
+            "c": [
+              "eu seria"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu serias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele seria"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela seria"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você seria"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós seríamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós seríeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles seriam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas seriam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês seriam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-pretérito-composto": [
+          {
+            "c": [
+              "eu teria sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terias sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele teria sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela teria sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você teria sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teríamos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós teríeis sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles teriam sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas teriam sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês teriam sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "subjuntivo": {
+        "presente": [
+          {
+            "c": [
+              "que eu seja"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "que tu sejas"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "que ele seja"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "que ela seja"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "que você seja"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "que nós sejamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "que vós sejais"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "que eles sejam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "que elas sejam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "que vocês sejam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "se eu fosse"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "se tu fosses"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "se ele fosse"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "se ela fosse"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "se você fosse"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "se nós fôssemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "se vós fôsseis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "se eles fossem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "se elas fossem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "se vocês fossem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro": [
+          {
+            "c": [
+              "quando eu for"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "quando tu fores"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "quando ele for"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "quando ela for"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "quando você for"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "quando nós formos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "quando vós fordes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "quando eles forem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "quando elas forem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "quando vocês forem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu tenha sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tenhas sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tenha sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tenha sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tenha sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tenhamos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tenhais sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tenham sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tenham sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tenham sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu tivesse sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tivesses sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivesse sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivesse sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivesse sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéssemos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivésseis sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tivessem sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tivessem sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tivessem sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-composto": [
+          {
+            "c": [
+              "eu tiver sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveres sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tiver sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tiver sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tiver sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivermos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tiverdes sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiverem sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiverem sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiverem sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "infinitivo": {
+        "infinitivo-pessoal-presente": [
+          {
+            "c": [
+              "por ser eu"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "por seres tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "por ser ele"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "por ser ela"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "por ser você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "por sermos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "por serdes vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "por serem eles"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "por serem elas"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "por serem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "infinitivo": [
+          {
+            "c": [
+              "ser"
+            ]
+          }
+        ],
+        "infinitivo-pessoal-composto": [
+          {
+            "c": [
+              "ter sido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "teres sido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ter sido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ter sido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "ter sido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "termos sido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "terdes sido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "terem sido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "terem sido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "terem sido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "imperativo": {
+        "afirmativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "sê tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "seja você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "sejamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "sede vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "sejam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "negativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "não sejas tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "não seja você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "não sejamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "não sejais vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "não sejam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "gerúndio": {
+        "gerúndio": [
+          {
+            "c": [
+              "sendo"
+            ]
+          }
+        ]
+      },
+      "particípio": {
+        "particípio": [
+          {
+            "c": [
+              "sido"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "viver": {
+    "verb": {
+      "infinitive": "viver",
+      "lang": "pt",
+      "predicted": false,
+      "stem": "viv",
+      "template": "vend:er",
+      "translation_en": ""
+    },
+    "moods": {
+      "indicativo": {
+        "presente": [
+          {
+            "c": [
+              "eu vivo"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu vives"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele vive"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela vive"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você vive"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós vivemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós viveis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles vivem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas vivem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês vivem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "eu vivia"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu vivias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele vivia"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela vivia"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você vivia"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós vivíamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós vivíeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles viviam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas viviam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês viviam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu vivera"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu viveras"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele vivera"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela vivera"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você vivera"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós vivêramos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós vivêreis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles viveram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas viveram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês viveram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu vivi"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu viveste"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele viveu"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela viveu"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você viveu"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós vivemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós vivestes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles viveram"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas viveram"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês viveram"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente": [
+          {
+            "c": [
+              "eu viverei"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu viverás"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele viverá"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela viverá"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você viverá"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós viveremos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós vivereis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles viverão"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas viverão"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês viverão"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito-composto": [
+          {
+            "c": [
+              "eu tenho vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tens vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tem vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tem vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tem vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós temos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tendes vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles têm vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas têm vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês têm vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-composto": [
+          {
+            "c": [
+              "eu tinha vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tinhas vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tinha vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tinha vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tinha vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tínhamos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tínheis vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tinham vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tinham vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tinham vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito-anterior": [
+          {
+            "c": [
+              "eu tivera vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveras vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivera vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivera vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivera vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéramos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivéreis vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiveram vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiveram vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiveram vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-presente-composto": [
+          {
+            "c": [
+              "eu terei vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terás vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele terá vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela terá vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você terá vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teremos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tereis vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles terão vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas terão vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês terão vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "condicional": {
+        "futuro-do-pretérito": [
+          {
+            "c": [
+              "eu viveria"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu viverias"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele viveria"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela viveria"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você viveria"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós viveríamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós viveríeis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles viveriam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas viveriam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês viveriam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-do-pretérito-composto": [
+          {
+            "c": [
+              "eu teria vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu terias vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele teria vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela teria vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você teria vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós teríamos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós teríeis vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles teriam vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas teriam vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês teriam vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "subjuntivo": {
+        "presente": [
+          {
+            "c": [
+              "que eu viva"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "que tu vivas"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "que ele viva"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "que ela viva"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "que você viva"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "que nós vivamos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "que vós vivais"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "que eles vivam"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "que elas vivam"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "que vocês vivam"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-imperfeito": [
+          {
+            "c": [
+              "se eu vivesse"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "se tu vivesses"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "se ele vivesse"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "se ela vivesse"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "se você vivesse"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "se nós vivêssemos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "se vós vivêsseis"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "se eles vivessem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "se elas vivessem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "se vocês vivessem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro": [
+          {
+            "c": [
+              "quando eu viver"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "quando tu viveres"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "quando ele viver"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "quando ela viver"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "quando você viver"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "quando nós vivermos"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "quando vós viverdes"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "quando eles viverem"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "quando elas viverem"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "quando vocês viverem"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-perfeito": [
+          {
+            "c": [
+              "eu tenha vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tenhas vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tenha vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tenha vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tenha vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tenhamos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tenhais vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tenham vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tenham vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tenham vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "pretérito-mais-que-perfeito": [
+          {
+            "c": [
+              "eu tivesse vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tivesses vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tivesse vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tivesse vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tivesse vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivéssemos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tivésseis vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tivessem vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tivessem vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tivessem vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "futuro-composto": [
+          {
+            "c": [
+              "eu tiver vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "tu tiveres vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ele tiver vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ela tiver vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "você tiver vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "nós tivermos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vós tiverdes vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "eles tiverem vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "elas tiverem vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "vocês tiverem vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "infinitivo": {
+        "infinitivo-pessoal-presente": [
+          {
+            "c": [
+              "por viver eu"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "por viveres tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "por viver ele"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "por viver ela"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "por viver você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "por vivermos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "por viverdes vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "por viverem eles"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "por viverem elas"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "por viverem vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "infinitivo": [
+          {
+            "c": [
+              "viver"
+            ]
+          }
+        ],
+        "infinitivo-pessoal-composto": [
+          {
+            "c": [
+              "ter vivido"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "teres vivido"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "ter vivido"
+            ],
+            "g": "m",
+            "n": "s",
+            "p": "3",
+            "pr": "ele"
+          },
+          {
+            "c": [
+              "ter vivido"
+            ],
+            "g": "f",
+            "n": "s",
+            "p": "3",
+            "pr": "ela"
+          },
+          {
+            "c": [
+              "ter vivido"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "termos vivido"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "terdes vivido"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "terem vivido"
+            ],
+            "g": "m",
+            "n": "p",
+            "p": "3",
+            "pr": "eles"
+          },
+          {
+            "c": [
+              "terem vivido"
+            ],
+            "g": "f",
+            "n": "p",
+            "p": "3",
+            "pr": "elas"
+          },
+          {
+            "c": [
+              "terem vivido"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "imperativo": {
+        "afirmativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "vive tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "viva você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "vivamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "vivei vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "vivam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ],
+        "negativo": [
+          {
+            "c": [
+              "-"
+            ],
+            "n": "s",
+            "p": "1",
+            "pr": "eu"
+          },
+          {
+            "c": [
+              "não vivas tu"
+            ],
+            "n": "s",
+            "p": "2",
+            "pr": "tu"
+          },
+          {
+            "c": [
+              "não viva você"
+            ],
+            "n": "s",
+            "p": "3",
+            "pr": "você"
+          },
+          {
+            "c": [
+              "não vivamos nós"
+            ],
+            "n": "p",
+            "p": "1",
+            "pr": "nós"
+          },
+          {
+            "c": [
+              "não vivais vós"
+            ],
+            "n": "p",
+            "p": "2",
+            "pr": "vós"
+          },
+          {
+            "c": [
+              "não vivam vocês"
+            ],
+            "n": "p",
+            "p": "3",
+            "pr": "vocês"
+          }
+        ]
+      },
+      "gerúndio": {
+        "gerúndio": [
+          {
+            "c": [
+              "vivendo"
+            ]
+          }
+        ]
+      },
+      "particípio": {
+        "particípio": [
+          {
+            "c": [
+              "vivido"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
