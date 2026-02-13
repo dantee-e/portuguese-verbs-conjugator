@@ -2417,7 +2417,7 @@
         "terminacao": "iverem"
       },
       "imperativo_tu": {
-        "remover_chars": 2,
+        "remover_chars": 1,
         "terminacao": "tem"
       }
     }
@@ -5100,7 +5100,7 @@
     "verbo_modelo": "pelejar",
     "terminacoes": {}
   },
-  "ir_verbo": {
+  "IR_VERBO": {
     "nome": "ir_verbo",
     "verbo_modelo": "ir",
     "terminacoes": {
@@ -5152,6 +5152,30 @@
         "remover_chars": 2,
         "terminacao": "foram"
       },
+      "preterito_imperfeito_eu": {
+        "remover_chars": 2,
+        "terminacao": "ia"
+      },
+      "preterito_imperfeito_tu": {
+        "remover_chars": 2,
+        "terminacao": "ias"
+      },
+      "preterito_imperfeito_ele": {
+        "remover_chars": 2,
+        "terminacao": "ia"
+      },
+      "preterito_imperfeito_nos": {
+        "remover_chars": 2,
+        "terminacao": "íamos"
+      },
+      "preterito_imperfeito_vos": {
+        "remover_chars": 2,
+        "terminacao": "íeis"
+      },
+      "preterito_imperfeito_eles": {
+        "remover_chars": 2,
+        "terminacao": "iam"
+      },
       "preterito_maisqueperfeito_eu": {
         "remover_chars": 2,
         "terminacao": "fora"
@@ -5170,11 +5194,59 @@
       },
       "preterito_maisqueperfeito_vos": {
         "remover_chars": 2,
-        "terminacao": "foreis"
+        "terminacao": "fôreis"
       },
       "preterito_maisqueperfeito_eles": {
         "remover_chars": 2,
         "terminacao": "foram"
+      },
+      "futuro_presente_eu": {
+        "remover_chars": 2,
+        "terminacao": "irei"
+      },
+      "futuro_presente_tu": {
+        "remover_chars": 2,
+        "terminacao": "irás"
+      },
+      "futuro_presente_ele": {
+        "remover_chars": 2,
+        "terminacao": "irá"
+      },
+      "futuro_presente_nos": {
+        "remover_chars": 2,
+        "terminacao": "iremos"
+      },
+      "futuro_presente_vos": {
+        "remover_chars": 2,
+        "terminacao": "ireis"
+      },
+      "futuro_presente_eles": {
+        "remover_chars": 2,
+        "terminacao": "irão"
+      },
+      "futuro_preterito_eu": {
+        "remover_chars": 2,
+        "terminacao": "iria"
+      },
+      "futuro_preterito_tu": {
+        "remover_chars": 2,
+        "terminacao": "irias"
+      },
+      "futuro_preterito_ele": {
+        "remover_chars": 2,
+        "terminacao": "iria"
+      },
+      "futuro_preterito_nos": {
+        "remover_chars": 2,
+        "terminacao": "iríamos"
+      },
+      "futuro_preterito_vos": {
+        "remover_chars": 2,
+        "terminacao": "iríeis"
+      },
+      "futuro_preterito_eles": {
+        "remover_chars": 2,
+        "terminacao": "iriam"
       },
       "presente_subjuntivo_eu": {
         "remover_chars": 2,
@@ -5247,6 +5319,46 @@
       "futuro_subjuntivo_eles": {
         "remover_chars": 2,
         "terminacao": "forem"
+      },
+      "infinitivo_pessoal_eu": {
+        "remover_chars": 2,
+        "terminacao": "ir"
+      },
+      "infinitivo_pessoal_tu": {
+        "remover_chars": 2,
+        "terminacao": "ires"
+      },
+      "infinitivo_pessoal_ele": {
+        "remover_chars": 2,
+        "terminacao": "ir"
+      },
+      "infinitivo_pessoal_nos": {
+        "remover_chars": 2,
+        "terminacao": "irmos"
+      },
+      "infinitivo_pessoal_vos": {
+        "remover_chars": 2,
+        "terminacao": "irdes"
+      },
+      "infinitivo_pessoal_eles": {
+        "remover_chars": 2,
+        "terminacao": "irem"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "vai"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "ide"
+      },
+      "gerundio": {
+        "remover_chars": 2,
+        "terminacao": "indo"
+      },
+      "participio": {
+        "remover_chars": 2,
+        "terminacao": "ido"
       }
     }
   },
@@ -8648,185 +8760,265 @@
       }
     }
   },
-  "ser_verbo": {
+  "SER_VERBO": {
     "nome": "ser_verbo",
     "verbo_modelo": "ser",
     "terminacoes": {
       "presente_indicativo_eu": {
-        "remover_chars": 2,
-        "terminacao": "ou"
+        "remover_chars": 3,
+        "terminacao": "sou"
       },
       "presente_indicativo_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "és"
       },
       "presente_indicativo_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "é"
       },
       "presente_indicativo_nos": {
-        "remover_chars": 2,
-        "terminacao": "omos"
+        "remover_chars": 3,
+        "terminacao": "somos"
       },
       "presente_indicativo_vos": {
-        "remover_chars": 2,
-        "terminacao": "ois"
+        "remover_chars": 3,
+        "terminacao": "sois"
       },
       "presente_indicativo_eles": {
-        "remover_chars": 2,
-        "terminacao": "ão"
+        "remover_chars": 3,
+        "terminacao": "são"
       },
       "preterito_perfeito_eu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fui"
       },
       "preterito_perfeito_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "foste"
       },
       "preterito_perfeito_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "foi"
       },
       "preterito_perfeito_nos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fomos"
       },
       "preterito_perfeito_vos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fostes"
       },
       "preterito_perfeito_eles": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "foram"
       },
       "preterito_imperfeito_eu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "era"
       },
       "preterito_imperfeito_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "eras"
       },
       "preterito_imperfeito_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "era"
       },
       "preterito_imperfeito_nos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "éramos"
       },
       "preterito_imperfeito_vos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "éreis"
       },
       "preterito_imperfeito_eles": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "eram"
       },
       "preterito_maisqueperfeito_eu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fora"
       },
       "preterito_maisqueperfeito_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "foras"
       },
       "preterito_maisqueperfeito_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fora"
       },
       "preterito_maisqueperfeito_nos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fôramos"
       },
       "preterito_maisqueperfeito_vos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fôreis"
       },
       "preterito_maisqueperfeito_eles": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "foram"
       },
+      "futuro_presente_eu": {
+        "remover_chars": 3,
+        "terminacao": "serei"
+      },
+      "futuro_presente_tu": {
+        "remover_chars": 3,
+        "terminacao": "serás"
+      },
+      "futuro_presente_ele": {
+        "remover_chars": 3,
+        "terminacao": "será"
+      },
+      "futuro_presente_nos": {
+        "remover_chars": 3,
+        "terminacao": "seremos"
+      },
+      "futuro_presente_vos": {
+        "remover_chars": 3,
+        "terminacao": "sereis"
+      },
+      "futuro_presente_eles": {
+        "remover_chars": 3,
+        "terminacao": "serão"
+      },
+      "futuro_preterito_eu": {
+        "remover_chars": 3,
+        "terminacao": "seria"
+      },
+      "futuro_preterito_tu": {
+        "remover_chars": 3,
+        "terminacao": "serias"
+      },
+      "futuro_preterito_ele": {
+        "remover_chars": 3,
+        "terminacao": "seria"
+      },
+      "futuro_preterito_nos": {
+        "remover_chars": 3,
+        "terminacao": "seríamos"
+      },
+      "futuro_preterito_vos": {
+        "remover_chars": 3,
+        "terminacao": "seríeis"
+      },
+      "futuro_preterito_eles": {
+        "remover_chars": 3,
+        "terminacao": "seriam"
+      },
       "presente_subjuntivo_eu": {
-        "remover_chars": 2,
-        "terminacao": "eja"
+        "remover_chars": 3,
+        "terminacao": "seja"
       },
       "presente_subjuntivo_tu": {
-        "remover_chars": 2,
-        "terminacao": "ejas"
+        "remover_chars": 3,
+        "terminacao": "sejas"
       },
       "presente_subjuntivo_ele": {
-        "remover_chars": 2,
-        "terminacao": "eja"
+        "remover_chars": 3,
+        "terminacao": "seja"
       },
       "presente_subjuntivo_nos": {
-        "remover_chars": 2,
-        "terminacao": "ejamos"
+        "remover_chars": 3,
+        "terminacao": "sejamos"
       },
       "presente_subjuntivo_vos": {
-        "remover_chars": 2,
-        "terminacao": "ejais"
+        "remover_chars": 3,
+        "terminacao": "sejais"
       },
       "presente_subjuntivo_eles": {
-        "remover_chars": 2,
-        "terminacao": "ejam"
+        "remover_chars": 3,
+        "terminacao": "sejam"
       },
       "preterito_subjuntivo_eu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fosse"
       },
       "preterito_subjuntivo_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fosses"
       },
       "preterito_subjuntivo_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fosse"
       },
       "preterito_subjuntivo_nos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fôssemos"
       },
       "preterito_subjuntivo_vos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fôsseis"
       },
       "preterito_subjuntivo_eles": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fossem"
       },
       "futuro_subjuntivo_eu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "for"
       },
       "futuro_subjuntivo_tu": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fores"
       },
       "futuro_subjuntivo_ele": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "for"
       },
       "futuro_subjuntivo_nos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "formos"
       },
       "futuro_subjuntivo_vos": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "fordes"
       },
       "futuro_subjuntivo_eles": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "forem"
       },
+      "infinitivo_pessoal_eu": {
+        "remover_chars": 3,
+        "terminacao": "ser"
+      },
+      "infinitivo_pessoal_tu": {
+        "remover_chars": 3,
+        "terminacao": "seres"
+      },
+      "infinitivo_pessoal_ele": {
+        "remover_chars": 3,
+        "terminacao": "ser"
+      },
+      "infinitivo_pessoal_nos": {
+        "remover_chars": 3,
+        "terminacao": "sermos"
+      },
+      "infinitivo_pessoal_vos": {
+        "remover_chars": 3,
+        "terminacao": "serdes"
+      },
+      "infinitivo_pessoal_eles": {
+        "remover_chars": 3,
+        "terminacao": "serem"
+      },
       "imperativo_tu": {
-        "remover_chars": 2,
+        "remover_chars": 3,
         "terminacao": "sê"
       },
       "imperativo_vos": {
-        "remover_chars": 2,
+        "remover_chars": 3,
         "terminacao": "sede"
+      },
+      "gerundio": {
+        "remover_chars": 3,
+        "terminacao": "sendo"
+      },
+      "participio": {
+        "remover_chars": 3,
+        "terminacao": "sido"
       }
     }
   },
@@ -9229,7 +9421,7 @@
         "terminacao": "iverem"
       },
       "imperativo_tu": {
-        "remover_chars": 2,
+        "remover_chars": 1,
         "terminacao": "tem"
       }
     }
@@ -9955,7 +10147,7 @@
         "terminacao": "ierem"
       },
       "imperativo_tu": {
-        "remover_chars": 2,
+        "remover_chars": 1,
         "terminacao": "vem"
       },
       "participio_regular": {
@@ -10263,6 +10455,14 @@
       "participio_regular": {
         "remover_chars": 2,
         "terminacao": "ado"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "a"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "ai"
       }
     }
   },
@@ -10517,6 +10717,14 @@
       "participio_regular": {
         "remover_chars": 2,
         "terminacao": "ido"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "e"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "ei"
       }
     }
   },
@@ -10771,6 +10979,14 @@
       "participio_regular": {
         "remover_chars": 2,
         "terminacao": "ido"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "i"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "í"
       }
     }
   }

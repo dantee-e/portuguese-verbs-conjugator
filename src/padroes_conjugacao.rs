@@ -1,12 +1,12 @@
 use serde;
 use serde::{Deserialize, Serialize};
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct TerminacaoRule {
     pub remover_chars: u8,
     pub terminacao: String,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct Padrao {
     pub nome: String,
 
@@ -17,7 +17,7 @@ pub struct Padrao {
     pub observacoes: Option<String>,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct Terminacoes {
     #[serde(rename = "presente_indicativo_eu")]
     pub presente_indicativo_eu: Option<TerminacaoRule>,

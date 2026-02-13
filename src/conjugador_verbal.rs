@@ -1,3 +1,10 @@
+use hashbrown::HashMap;
+
+use crate::{
+    classificador_verbal::classificar_verbo,
+    padroes::{er, from_ending, ir},
+};
+
 use super::padroes_conjugacao::Padrao;
 
 macro_rules! tentar_tempo_verbal {
@@ -24,7 +31,7 @@ macro_rules! tentar_tempo_verbal {
             let until = $verb.len() - terminacao.remover_chars as usize;
             let root = &$verb[0..until];
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
-            $conjugacoes_vec.push((stringify!($tempo_verbal).to_string(), conjugated_verb));
+            $conjugacoes_vec.insert(stringify!($tempo_verbal).to_string(), conjugated_verb);
         )+
 
         // Participios (casos especiais)
@@ -34,7 +41,7 @@ macro_rules! tentar_tempo_verbal {
             let until = $verb.len() - terminacao.remover_chars as usize;
             let root = &$verb[0..until];
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
-            $conjugacoes_vec.push(("participio_regular".to_string(), conjugated_verb));
+            $conjugacoes_vec.insert("participio_regular".to_string(), conjugated_verb);
         }
 
         // Participio Irregular
@@ -42,20 +49,24 @@ macro_rules! tentar_tempo_verbal {
             let until = $verb.len() - terminacao.remover_chars as usize;
             let root = &$verb[0..until];
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
-            $conjugacoes_vec.push(("participio_irregular".to_string(), conjugated_verb));
+            $conjugacoes_vec.insert("participio_irregular".to_string(), conjugated_verb);
         }
 
 
     };
 }
 
-pub fn conjugar(
-    verb: String,
-    padrao: &Padrao,
-    padrao_infinitivo: &Padrao,
-) -> Vec<(String, String)> {
-    let mut conjugacoes: Vec<(String, String)> = Vec::new();
-
+pub fn conjugar(verb: &str, padroes_hashmap: &HashMap<String, Padrao>) -> HashMap<String, String> {
+    let mut conjugacoes: HashMap<String, String> = HashMap::new();
+    let terminacao_infinitivo = &verb[&verb.len() - 2..];
+    let padrao = classificar_verbo(padroes_hashmap, verb).unwrap();
+    let padrao_infinitivo = if verb.to_lowercase() == "ir" {
+        ir(padroes_hashmap)
+    } else if verb.to_lowercase() == "ser" {
+        er(padroes_hashmap)
+    } else {
+        from_ending(padroes_hashmap, terminacao_infinitivo).unwrap()
+    };
     tentar_tempo_verbal!(
         conjugacoes,
         verb,
@@ -128,34 +139,4 @@ pub fn conjugar(
         )
     );
     conjugacoes
-}
-
-mod tests {
-    use std::fs::File;
-
-    use hashbrown::HashMap;
-
-    use crate::classificador_verbos::classificar_verbo;
-    use crate::conjugador_verbal::conjugar;
-    use crate::padroes_conjugacao::Padrao;
-    use crate::padroes_infinitivo::from_ending;
-
-    #[test]
-    fn conjugar_verbo_amar() {
-        let padroes_hashmap: HashMap<String, Padrao> = serde_json::from_reader(
-            File::open("src/padroes_conjugacao.json")
-                .expect("No padroes_conjugacao.json file found"),
-        )
-        .expect("padroes_conjugacao.json is not valid JSON");
-
-        let verb = "amar".to_string();
-        let terminacao_infinitivo = &verb[&verb.len() - 2..];
-        let padrao = classificar_verbo(&padroes_hashmap, &verb).unwrap();
-        let padrao_infinitivo = from_ending(&padroes_hashmap, terminacao_infinitivo).unwrap();
-        let result = conjugar(verb, &padrao, &padrao_infinitivo);
-
-        for (tempo_verbal, conjugacao) in result {
-            println!("{tempo_verbal}: {conjugacao}");
-        }
-    }
 }

@@ -23,7 +23,10 @@ pub fn ir(padroes_hashmap: &HashMap<String, Padrao>) -> Padrao {
         panic!("Infinitive pattern not found in padroes_hashmap");
     }
 }
-pub fn from_ending(padroes_hashmap: &HashMap<String, Padrao>, terminacao: &str) -> Option<Padrao> {
+pub fn from_ending_infinitive(
+    padroes_hashmap: &HashMap<String, Padrao>,
+    terminacao: &str,
+) -> Option<Padrao> {
     match terminacao.to_uppercase().as_str() {
         "AR" => Some(ar(padroes_hashmap)),
         "ER" => Some(er(padroes_hashmap)),
@@ -35,4 +38,8 @@ pub fn from_ending(padroes_hashmap: &HashMap<String, Padrao>, terminacao: &str) 
             None
         }
     }
+}
+
+pub fn from_ending(padroes_hashmap: &HashMap<String, Padrao>, padrao_str: &str) -> Option<Padrao> {
+    padroes_hashmap.get(&padrao_str.to_uppercase()).cloned()
 }
