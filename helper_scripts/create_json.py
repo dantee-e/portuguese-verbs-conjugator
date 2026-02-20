@@ -177,7 +177,7 @@ def extrair_padroes(arquivo_excel):
 
                 # Adicionar ao dicionário
                 terminacoes[tempo_pessoa] = {
-                    "remover_chars": int(num_chars) if pd.notna(num_chars) else 2,
+                    "remover_chars": int(num_chars) + 2 if pd.notna(num_chars) else 2,
                     "terminacao": terminacao,
                 }
 

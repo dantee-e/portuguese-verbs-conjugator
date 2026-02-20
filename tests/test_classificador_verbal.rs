@@ -1,8 +1,10 @@
 #[cfg(test)]
 mod tests {
-    use conjugador_verbos::padroes::from_ending;
-    use conjugador_verbos::{classificador_verbal::classificar_verbo, padroes_conjugacao::Padrao};
     use hashbrown::HashMap;
+    use portuguese_verbs_conjugator::padroes::from_ending;
+    use portuguese_verbs_conjugator::{
+        classificador_verbal::classificar_verbo, padroes_conjugacao::Padrao,
+    };
     use std::fs::File;
 
     #[test]
