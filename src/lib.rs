@@ -1,5 +1,7 @@
-pub mod classificador_verbal;
+mod classificador_verbal;
 pub mod conjugador_verbal;
-pub mod padroes;
-pub mod padroes_conjugacao;
-pub mod tipos_de_verbos_enum;
+pub(crate) mod helpers;
+
+pub use classificador_verbal::classificar_verbo;
+pub use conjugador_verbal::conjugar;
+pub use helpers::{Padrao, get_padroes_conjugacao};

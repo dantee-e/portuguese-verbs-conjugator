@@ -1,0 +1,13 @@
+{
+  "presente_indicativo_eu": "faço",
+  "presente_indicativo_tu": "fazes",
+  "presente_indicativo_ele": "faz",
+  "presente_indicativo_nos": "fazemos",
+  "presente_indicativo_vos": "fazeis",
+  "presente_indicativo_eles": "fazem",
+  "preterito_perfeito_eu": "fiz",
+  "preterito_perfeito_ele": "fez",
+  "preterito_perfeito_eles": "fizeram",
+  "gerundio": "fazendo",
+  "participio_irregular": "feito"
+}

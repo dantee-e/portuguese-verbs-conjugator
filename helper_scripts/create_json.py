@@ -70,6 +70,7 @@ TEMPOS_PESSOAS = {
     64: "imperativo_vos",
 }
 
+# Nao da pra confiar nesses padroes
 padroes_variaveis = [
     "Abundante",
     "Defectivo 1",
@@ -117,6 +118,8 @@ def extrair_padroes(arquivo_excel):
             padrao_id = "ir_verbo".upper()
         elif nome_padrao.lower() == "ser":
             padrao_id = "ser_verbo".upper()
+        elif nome_padrao.lower() == "ter":
+            padrao_id = "ter_verbo"
         elif (
             " ê" in nome_padrao.lower()
             or " é" in nome_padrao.lower()
@@ -226,25 +229,17 @@ def extrair_padroes(arquivo_excel):
                 "remover_chars": 2,
                 "terminacao": "ado",
             }
-        elif padrao_id == "PÔR":  # ← ADICIONAR
+        elif padrao_id == "PÔR":
             terminacoes["participio_regular"] = {
                 "remover_chars": 2,
                 "terminacao": "osto",
             }
-        elif participio_regular and terminacao_regular:  # ← ADICIONAR condição
-            # Para outros casos que tenham participio_regular marcado
+        elif participio_regular and terminacao_regular:
             terminacoes["participio_regular"] = {
                 "remover_chars": 2,
                 "terminacao": terminacao_regular,
             }
 
-        # observacoes = row.get("Observações", None)
-        # if pd.notna(observacoes):
-        #     observacoes = str(observacoes).strip()
-        # else:
-        #     observacoes = None
-
-        # Adicionar padrão ao resultado
         resultado[padrao_id] = {
             "nome": padrao_id,
             "verbo_modelo": verbo_modelo,

@@ -1,7 +1,6 @@
 use std::fs::File;
 
 use hashbrown::HashMap;
-use serde;
 use serde::{Deserialize, Serialize};
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct TerminacaoRule {
@@ -220,7 +219,8 @@ pub struct Terminacoes {
 
 pub fn get_padroes_conjugacao() -> HashMap<String, Padrao> {
     serde_json::from_reader(
-        File::open("src/padroes_conjugacao.json").expect("No padroes_conjugacao.json file found"),
+        File::open("src/helpers/padroes_conjugacao.json")
+            .expect("No padroes_conjugacao.json file found"),
     )
     .expect("padroes_conjugacao.json is not valid JSON")
 }

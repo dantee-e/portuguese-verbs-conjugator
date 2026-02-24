@@ -46,7 +46,7 @@
         "terminacao": "ido"
       },
       "participio_irregular": {
-        "remover_chars": 1,
+        "remover_chars": 3,
         "terminacao": "erto"
       }
     }
@@ -3349,7 +3349,7 @@
         "terminacao": "ido"
       },
       "participio_irregular": {
-        "remover_chars": 2,
+        "remover_chars": 4,
         "terminacao": "ito"
       }
     }
@@ -3676,7 +3676,7 @@
       },
       "preterito_maisqueperfeito_eles": {
         "remover_chars": 4,
-        "terminacao": "izerem"
+        "terminacao": "izeram"
       },
       "futuro_presente_eu": {
         "remover_chars": 4,
@@ -3803,7 +3803,7 @@
         "terminacao": "ido"
       },
       "participio_irregular": {
-        "remover_chars": 2,
+        "remover_chars": 4,
         "terminacao": "eito"
       }
     }
@@ -6684,7 +6684,7 @@
       },
       "presente_subjuntivo_nos": {
         "remover_chars": 3,
-        "terminacao": "ssâmos"
+        "terminacao": "ssamos"
       },
       "presente_subjuntivo_vos": {
         "remover_chars": 3,
@@ -6732,7 +6732,7 @@
       },
       "futuro_subjuntivo_nos": {
         "remover_chars": 4,
-        "terminacao": "udésemos"
+        "terminacao": "udermos"
       },
       "futuro_subjuntivo_vos": {
         "remover_chars": 4,
@@ -7861,6 +7861,14 @@
       "futuro_subjuntivo_eles": {
         "remover_chars": 4,
         "terminacao": "iserem"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": ""
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "ei"
       }
     }
   },
@@ -9252,7 +9260,7 @@
       }
     }
   },
-  "TER": {
+  "TER_VERBO": {
     "nome": "TER",
     "verbo_modelo": "ter",
     "terminacoes": {
@@ -9267,6 +9275,10 @@
       "presente_indicativo_ele": {
         "remover_chars": 2,
         "terminacao": "em"
+      },
+      "presente_indicativo_nos": {
+        "remover_chars": 2,
+        "terminacao": "emos"
       },
       "presente_indicativo_vos": {
         "remover_chars": 2,
@@ -9423,6 +9435,10 @@
       "imperativo_tu": {
         "remover_chars": 3,
         "terminacao": "tem"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "ende"
       }
     }
   },
@@ -10147,12 +10163,16 @@
         "terminacao": "ierem"
       },
       "imperativo_tu": {
-        "remover_chars": 3,
-        "terminacao": "vem"
+        "remover_chars": 2,
+        "terminacao": "em"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "inde"
       },
       "participio_regular": {
         "remover_chars": 2,
-        "terminacao": "ido"
+        "terminacao": "indo"
       }
     }
   },
@@ -10986,7 +11006,7 @@
       },
       "imperativo_vos": {
         "remover_chars": 2,
-        "terminacao": "í"
+        "terminacao": "i"
       }
     }
   }

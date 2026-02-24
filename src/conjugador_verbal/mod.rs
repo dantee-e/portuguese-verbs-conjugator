@@ -1,11 +1,9 @@
 use hashbrown::HashMap;
 
-use crate::{
-    classificador_verbal::classificar_verbo,
-    padroes::{er, from_ending, ir},
-};
+use crate::classificador_verbal::classificar_verbo;
+use crate::helpers::padroes_comuns::get_infinitive_pattern;
 
-use super::padroes_conjugacao::Padrao;
+use super::helpers::Padrao;
 
 macro_rules! tentar_tempo_verbal {
     (
@@ -23,13 +21,14 @@ macro_rules! tentar_tempo_verbal {
             } else {
                 &$padrao_infinitivo
                     .terminacoes
-                    .presente_indicativo_eu
+                    .$tempo_verbal
                     .clone()
-                    .unwrap()
+                    .expect("Did not find infinitive pattern on function conjugar")
             };
 
             let until = $verb.len() - terminacao.remover_chars as usize;
-            let root = &$verb[0..until];
+            // let root = &$verb[0..until];
+            let root = $verb.chars().take(until).collect::<String>();
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
             $conjugacoes_vec.insert(stringify!($tempo_verbal).to_string(), conjugated_verb);
         )+
@@ -39,7 +38,8 @@ macro_rules! tentar_tempo_verbal {
         // Participio Regular
         if let Some(terminacao) = &$padrao.terminacoes.participio_regular {
             let until = $verb.len() - terminacao.remover_chars as usize;
-            let root = &$verb[0..until];
+            // let root = &$verb[0..until];
+            let root = $verb.chars().take(until).collect::<String>();
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
             $conjugacoes_vec.insert("participio_regular".to_string(), conjugated_verb);
         }
@@ -47,6 +47,7 @@ macro_rules! tentar_tempo_verbal {
         // Participio Irregular
         if let Some(terminacao) = &$padrao.terminacoes.participio_irregular {
             let until = $verb.len() - terminacao.remover_chars as usize;
+            // let root = &$verb[0..until];
             let root = &$verb[0..until];
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
             $conjugacoes_vec.insert("participio_irregular".to_string(), conjugated_verb);
@@ -58,15 +59,11 @@ macro_rules! tentar_tempo_verbal {
 
 pub fn conjugar(verb: &str, padroes_hashmap: &HashMap<String, Padrao>) -> HashMap<String, String> {
     let mut conjugacoes: HashMap<String, String> = HashMap::new();
-    let terminacao_infinitivo = &verb[&verb.len() - 2..];
     let padrao = classificar_verbo(padroes_hashmap, verb).unwrap();
-    let padrao_infinitivo = if verb.to_lowercase() == "ir" {
-        ir(padroes_hashmap)
-    } else if verb.to_lowercase() == "ser" {
-        er(padroes_hashmap)
-    } else {
-        from_ending(padroes_hashmap, terminacao_infinitivo).unwrap()
-    };
+
+    let padrao_infinitivo = get_infinitive_pattern(padroes_hashmap, verb)
+        .expect("Did not find infinitive pattern on function conjugar");
+
     tentar_tempo_verbal!(
         conjugacoes,
         verb,
