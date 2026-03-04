@@ -67,7 +67,10 @@ pub fn get_infinitive_pattern(
 }
 
 #[allow(dead_code)]
-pub fn from_ending(padroes_hashmap: &HashMap<String, Padrao>, padrao_str: &str) -> Option<Padrao> {
+pub fn from_ending(
+    padroes_hashmap: &HashMap<String, Padrao>,
+    padrao_str: &str,
+) -> Option<Padrao> {
     padroes_hashmap.get(&padrao_str.to_uppercase()).cloned()
 }
 

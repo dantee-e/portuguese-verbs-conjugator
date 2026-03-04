@@ -7058,7 +7058,7 @@
       },
       "presente_indicativo_tu": {
         "remover_chars": 2,
-        "terminacao": "õens"
+        "terminacao": "ões"
       },
       "presente_indicativo_ele": {
         "remover_chars": 2,
@@ -7291,6 +7291,14 @@
       "infinitivo_pessoal_eles": {
         "remover_chars": 2,
         "terminacao": "orem"
+      },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "õe"
+      },
+      "imperativo_vos": {
+        "remover_chars": 2,
+        "terminacao": "onde"
       },
       "gerundio": {
         "remover_chars": 2,

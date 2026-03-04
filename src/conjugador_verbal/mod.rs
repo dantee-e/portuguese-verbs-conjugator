@@ -19,14 +19,15 @@ macro_rules! tentar_tempo_verbal {
             {
                 terminacao
             } else {
+                println!(stringify!($tempo));
                 &$padrao_infinitivo
                     .terminacoes
                     .$tempo_verbal
                     .clone()
-                    .expect("Did not find infinitive pattern on function conjugar")
+                    .expect("Did not find infinitive pattern on function conjugar 2")
             };
 
-            let until = $verb.len() - terminacao.remover_chars as usize;
+            let until = $verb.chars().count() - terminacao.remover_chars as usize;
             // let root = &$verb[0..until];
             let root = $verb.chars().take(until).collect::<String>();
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
@@ -52,17 +53,18 @@ macro_rules! tentar_tempo_verbal {
             let conjugated_verb = format!("{root}{}", terminacao.terminacao);
             $conjugacoes_vec.insert("participio_irregular".to_string(), conjugated_verb);
         }
-
-
     };
 }
 
-pub fn conjugar(verb: &str, padroes_hashmap: &HashMap<String, Padrao>) -> HashMap<String, String> {
+pub fn conjugar(
+    verb: &str,
+    padroes_hashmap: &HashMap<String, Padrao>,
+) -> HashMap<String, String> {
     let mut conjugacoes: HashMap<String, String> = HashMap::new();
     let padrao = classificar_verbo(padroes_hashmap, verb).unwrap();
 
     let padrao_infinitivo = get_infinitive_pattern(padroes_hashmap, verb)
-        .expect("Did not find infinitive pattern on function conjugar");
+        .expect("Did not find infinitive pattern on function conjugar 1");
 
     tentar_tempo_verbal!(
         conjugacoes,

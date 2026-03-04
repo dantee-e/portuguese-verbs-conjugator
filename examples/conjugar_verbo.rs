@@ -10,6 +10,7 @@ fn main() {
     let verbo = "amar";
     let conjugacoes = conjugar_verbo(verbo);
 
-    let presente_indicativo_eu = conjugacoes.get("presente_indicativo_eu").unwrap();
+    let presente_indicativo_eu =
+        conjugacoes.get("presente_indicativo_eu").unwrap();
     println!("{presente_indicativo_eu}");
 }

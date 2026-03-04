@@ -11,7 +11,8 @@ fn test_example() {
     let verbo = "amar";
     let conjugacoes = conjugar_verbo(verbo);
 
-    let presente_indicativo_eu = conjugacoes.get("presente_indicativo_eu").unwrap();
+    let presente_indicativo_eu =
+        conjugacoes.get("presente_indicativo_eu").unwrap();
 
     println!("Presente indicativo eu do verbo amar é {presente_indicativo_eu}");
 }

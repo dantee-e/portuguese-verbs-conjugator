@@ -20,9 +20,9 @@ mod tests {
 
         let verb = "amar".to_string();
         let result = conjugar(&verb, &padroes_hashmap);
-        let compare: HashMap<String, String> = serde_json::from_str(include_str!(
-            "arquivos_conjugacoes/verbo_amar_conjugacao.json"
-        ))
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_amar_conjugacao.json"),
+        )
         .unwrap();
 
         compare_conjugacoes(&result, &compare);
@@ -34,9 +34,9 @@ mod tests {
 
         let verb = "ser".to_string();
         let result = conjugar(&verb, &padroes_hashmap);
-        let compare: HashMap<String, String> = serde_json::from_str(include_str!(
-            "arquivos_conjugacoes/verbo_ser_conjugacao.json"
-        ))
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_ser_conjugacao.json"),
+        )
         .unwrap();
 
         compare_conjugacoes(&result, &compare);
@@ -48,9 +48,9 @@ mod tests {
 
         let verb = "ir".to_string();
         let result = conjugar(&verb, &padroes_hashmap);
-        let compare: HashMap<String, String> = serde_json::from_str(include_str!(
-            "arquivos_conjugacoes/verbo_ir_conjugacao.json"
-        ))
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_ir_conjugacao.json"),
+        )
         .unwrap();
 
         compare_conjugacoes(&result, &compare);
@@ -59,13 +59,16 @@ mod tests {
     #[test]
     fn conjugar_verbos_arquivo_teste() {
         let padroes_hashmap = get_padroes_conjugacao();
-        let compare_list: HashMap<String, HashMap<String, String>> = serde_json::from_str(
-            include_str!("arquivos_conjugacoes/varios_verbos_teste.json"),
-        )
-        .unwrap();
+        let compare_list: HashMap<String, HashMap<String, String>> =
+            serde_json::from_str(include_str!(
+                "arquivos_conjugacoes/varios_verbos_teste.json"
+            ))
+            .unwrap();
 
         for (verbo, conjugacao_json) in compare_list {
-            println!("Tentando conjugar o verbo {verbo} no teste com varios verbos");
+            println!(
+                "Tentando conjugar o verbo {verbo} no teste com varios verbos"
+            );
             let conjugacao = conjugar(&verbo, &padroes_hashmap);
             compare_conjugacoes(&conjugacao, &conjugacao_json);
         }
@@ -77,9 +80,9 @@ mod tests {
 
         let verb = "fazer".to_string();
         let result = conjugar(&verb, &padroes_hashmap);
-        let compare: HashMap<String, String> = serde_json::from_str(include_str!(
-            "arquivos_conjugacoes/verbo_fazer_conjugacao.json"
-        ))
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_fazer_conjugacao.json"),
+        )
         .unwrap();
 
         compare_conjugacoes(&result, &compare);

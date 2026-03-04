@@ -33,7 +33,9 @@ pub fn classificar_verbo(
     let number_of_letters_in_verb = verbo.len();
 
     for i in 0..=number_of_letters_in_verb {
-        if let Some(padrao) = padroes_hashmap.get(&verbo[i..number_of_letters_in_verb]) {
+        if let Some(padrao) =
+            padroes_hashmap.get(&verbo[i..number_of_letters_in_verb])
+        {
             println!(
                 "Padrao encontrado para verbo {verbo_original}: {}",
                 padrao.nome
@@ -48,7 +50,10 @@ pub fn classificar_verbo(
 #[cfg(test)]
 mod tests {
     use super::super::helpers::padroes_comuns::from_ending;
-    use crate::{Padrao, classificar_verbo, get_padroes_conjugacao, helpers::padroes_comuns::ar};
+    use crate::{
+        Padrao, classificar_verbo, get_padroes_conjugacao,
+        helpers::padroes_comuns::ar,
+    };
     use hashbrown::HashMap;
 
     #[test]
@@ -64,8 +69,8 @@ mod tests {
         let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
 
         let result = classificar_verbo(&padroes_hashmap, "ser").unwrap();
-        let expected =
-            from_ending(&padroes_hashmap, "ser_verbo").expect("did not find pattern ser_verbo");
+        let expected = from_ending(&padroes_hashmap, "ser_verbo")
+            .expect("did not find pattern ser_verbo");
         assert_eq!(result, expected);
     }
 }
