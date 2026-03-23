@@ -19,7 +19,6 @@ macro_rules! tentar_tempo_verbal {
             {
                 terminacao
             } else {
-                println!(stringify!($tempo));
                 &$padrao_infinitivo
                     .terminacoes
                     .$tempo_verbal
@@ -66,6 +65,10 @@ pub fn conjugar(
     let padrao_infinitivo = get_infinitive_pattern(padroes_hashmap, verb)
         .expect("Did not find infinitive pattern on function conjugar 1");
 
+    println!(
+        "Padroes encontrados: {}  e  {}",
+        padrao.nome, padrao_infinitivo.nome
+    );
     tentar_tempo_verbal!(
         conjugacoes,
         verb,

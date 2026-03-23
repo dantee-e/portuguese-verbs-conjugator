@@ -9,6 +9,7 @@ mod tests {
         gabarito: &HashMap<String, String>,
     ) {
         for (tempo, verbo_conjugado) in resultado {
+            println!("Testando tempo {tempo}");
             if let Some(verbo_conjugado_gabarito) = gabarito.get(tempo) {
                 assert_eq!(verbo_conjugado, verbo_conjugado_gabarito);
             }
@@ -94,10 +95,10 @@ mod tests {
 
         let verb = "viver".to_string();
         let result = conjugar(&verb, &padroes_hashmap);
-        let compare: HashMap<String, String> = serde_json::from_str(include_str!(
-            "arquivos_conjugacoes/verbo_viver_conjugacao.json"
-        ))
-        .expect("Error converting the file viver_verbo_conjugacao.json into a serde Value");
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_viver_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
 
         compare_conjugacoes(&result, &compare);
     }
@@ -112,6 +113,20 @@ mod tests {
             "arquivos_conjugacoes/verbo_por_conjugacao.json"
         ))
         .expect("Error converting the file viver_verbo_conjugacao.json into a serde Value");
+
+        compare_conjugacoes(&result, &compare);
+    }
+
+    #[test]
+    fn conjugar_verbo_haver() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+
+        let verb = "haver".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_haver_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
 
         compare_conjugacoes(&result, &compare);
     }

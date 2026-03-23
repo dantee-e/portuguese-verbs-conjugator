@@ -4733,6 +4733,14 @@
         "remover_chars": 4,
         "terminacao": "á"
       },
+      "presente_indicativo_nos": {
+        "remover_chars": 1,
+        "terminacao": "mos"
+      },
+      "presente_indicativo_vos": {
+        "remover_chars": 1,
+        "terminacao": "is"
+      },
       "presente_indicativo_eles": {
         "remover_chars": 4,
         "terminacao": "ão"
@@ -4761,6 +4769,30 @@
         "remover_chars": 4,
         "terminacao": "ouveram"
       },
+      "preterito_imperfeito_eu": {
+        "remover_chars": 2,
+        "terminacao": "ia"
+      },
+      "preterito_imperfeito_tu": {
+        "remover_chars": 2,
+        "terminacao": "ias"
+      },
+      "preterito_imperfeito_ele": {
+        "remover_chars": 2,
+        "terminacao": "ia"
+      },
+      "preterito_imperfeito_nos": {
+        "remover_chars": 2,
+        "terminacao": "íamos"
+      },
+      "preterito_imperfeito_vos": {
+        "remover_chars": 2,
+        "terminacao": "íeis"
+      },
+      "preterito_imperfeito_eles": {
+        "remover_chars": 2,
+        "terminacao": "iam"
+      },
       "preterito_maisqueperfeito_eu": {
         "remover_chars": 4,
         "terminacao": "ouvera"
@@ -4784,6 +4816,54 @@
       "preterito_maisqueperfeito_eles": {
         "remover_chars": 4,
         "terminacao": "ouveram"
+      },
+      "futuro_presente_eu": {
+        "remover_chars": 1,
+        "terminacao": "rei"
+      },
+      "futuro_presente_tu": {
+        "remover_chars": 1,
+        "terminacao": "rás"
+      },
+      "futuro_presente_ele": {
+        "remover_chars": 1,
+        "terminacao": "rá"
+      },
+      "futuro_presente_nos": {
+        "remover_chars": 1,
+        "terminacao": "remos"
+      },
+      "futuro_presente_vos": {
+        "remover_chars": 1,
+        "terminacao": "reis"
+      },
+      "futuro_presente_eles": {
+        "remover_chars": 1,
+        "terminacao": "rão"
+      },
+      "futuro_preterito_eu": {
+        "remover_chars": 1,
+        "terminacao": "ria"
+      },
+      "futuro_preterito_tu": {
+        "remover_chars": 1,
+        "terminacao": "rias"
+      },
+      "futuro_preterito_ele": {
+        "remover_chars": 1,
+        "terminacao": "ria"
+      },
+      "futuro_preterito_nos": {
+        "remover_chars": 1,
+        "terminacao": "ríamos"
+      },
+      "futuro_preterito_vos": {
+        "remover_chars": 1,
+        "terminacao": "ríeis"
+      },
+      "futuro_preterito_eles": {
+        "remover_chars": 1,
+        "terminacao": "riam"
       },
       "presente_subjuntivo_eu": {
         "remover_chars": 3,
@@ -4856,6 +4936,46 @@
       "futuro_subjuntivo_eles": {
         "remover_chars": 4,
         "terminacao": "ouverem"
+      },
+      "infinitivo_pessoal_eu": {
+        "remover_chars": 1,
+        "terminacao": "r"
+      },
+      "infinitivo_pessoal_tu": {
+        "remover_chars": 1,
+        "terminacao": "res"
+      },
+      "infinitivo_pessoal_ele": {
+        "remover_chars": 1,
+        "terminacao": "r"
+      },
+      "infinitivo_pessoal_nos": {
+        "remover_chars": 1,
+        "terminacao": "rmos"
+      },
+      "infinitivo_pessoal_vos": {
+        "remover_chars": 1,
+        "terminacao": "rdes"
+      },
+      "infinitivo_pessoal_eles": {
+        "remover_chars": 1,
+        "terminacao": "rem"
+      },
+      "imperativo_tu": {
+        "remover_chars": 4,
+        "terminacao": "á"
+      },
+      "imperativo_vos": {
+        "remover_chars": 1,
+        "terminacao": "i"
+      },
+      "gerundio": {
+        "remover_chars": 2,
+        "terminacao": "endo"
+      },
+      "participio_regular": {
+        "remover_chars": 2,
+        "terminacao": "ido"
       }
     }
   },
