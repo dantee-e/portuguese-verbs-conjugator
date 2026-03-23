@@ -219,7 +219,7 @@ pub struct Terminacoes {
 
 pub fn get_padroes_conjugacao() -> HashMap<String, Padrao> {
     serde_json::from_reader(
-        File::open("src/helpers/padroes_conjugacao_new.json")
+        File::open("src/helpers/padroes_conjugacao.json")
             .expect("No padroes_conjugacao.json file found"),
     )
     .expect("padroes_conjugacao.json is not valid JSON")
