@@ -1,6 +1,6 @@
 [package]
 name = "portuguese_verbs_conjugator"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 description = "Crate for conjugating verbs in portuguese based on the patterns found on the [Excel spreadsheet by Radames Manosso](https://radames.manosso.nom.br/bitabit/planilhas/conjugador-de-verbos-em-excel/)\nNot fully functional, still fixing some details"
 exclude = ["helper_scripts/*"]
