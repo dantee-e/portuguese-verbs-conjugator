@@ -1,13 +1,1 @@
-{
-  "presente_indicativo_eu": "faço",
-  "presente_indicativo_tu": "fazes",
-  "presente_indicativo_ele": "faz",
-  "presente_indicativo_nos": "fazemos",
-  "presente_indicativo_vos": "fazeis",
-  "presente_indicativo_eles": "fazem",
-  "preterito_perfeito_eu": "fiz",
-  "preterito_perfeito_ele": "fez",
-  "preterito_perfeito_eles": "fizeram",
-  "gerundio": "fazendo",
-  "participio_irregular": "feito"
-}
+{"presente_indicativo_eu": "faço", "presente_indicativo_tu": "fazes", "presente_indicativo_ele": "faz", "presente_indicativo_nos": "fazemos", "presente_indicativo_vos": "fazeis", "presente_indicativo_eles": "fazem", "preterito_perfeito_eu": "fiz", "preterito_perfeito_tu": "fizeste", "preterito_perfeito_ele": "fez", "preterito_perfeito_nos": "fizemos", "preterito_perfeito_vos": "fizestes", "preterito_perfeito_eles": "fizeram", "preterito_imperfeito_eu": "fazia", "preterito_imperfeito_tu": "fazias", "preterito_imperfeito_ele": "fazia", "preterito_imperfeito_nos": "fazíamos", "preterito_imperfeito_vos": "fazíeis", "preterito_imperfeito_eles": "faziam", "preterito_maisqueperfeito_eu": "fizera", "preterito_maisqueperfeito_tu": "fizeras", "preterito_maisqueperfeito_ele": "fizera", "preterito_maisqueperfeito_nos": "fizéramos", "preterito_maisqueperfeito_vos": "fizéreis", "preterito_maisqueperfeito_eles": "fizeram", "futuro_presente_eu": "farei", "futuro_presente_tu": "farás", "futuro_presente_ele": "fará", "futuro_presente_nos": "faremos", "futuro_presente_vos": "fareis", "futuro_presente_eles": "farão", "futuro_preterito_eu": "faria", "futuro_preterito_tu": "farias", "futuro_preterito_ele": "faria", "futuro_preterito_nos": "faríamos", "futuro_preterito_vos": "faríeis", "futuro_preterito_eles": "fariam", "presente_subjuntivo_eu": "faça", "presente_subjuntivo_tu": "faças", "presente_subjuntivo_ele": "faça", "presente_subjuntivo_nos": "façamos", "presente_subjuntivo_vos": "façais", "presente_subjuntivo_eles": "façam", "preterito_subjuntivo_eu": "fizesse", "preterito_subjuntivo_tu": "fizesses", "preterito_subjuntivo_ele": "fizesse", "preterito_subjuntivo_nos": "fizéssemos", "preterito_subjuntivo_vos": "fizésseis", "preterito_subjuntivo_eles": "fizessem", "futuro_subjuntivo_eu": "fizer", "futuro_subjuntivo_tu": "fizeres", "futuro_subjuntivo_ele": "fizer", "futuro_subjuntivo_nos": "fizermos", "futuro_subjuntivo_vos": "fizerdes", "futuro_subjuntivo_eles": "fizerem", "infinitivo_pessoal_eu": "fazer", "infinitivo_pessoal_tu": "fazeres", "infinitivo_pessoal_ele": "fazer", "infinitivo_pessoal_nos": "fazermos", "infinitivo_pessoal_vos": "fazerdes", "infinitivo_pessoal_eles": "fazerem", "gerundio": "fazendo", "participio_regular": "fazido", "participio_irregular": "feito", "imperativo_tu": "faze", "imperativo_vos": "fazei"}
