@@ -1,0 +1,15 @@
+{
+  "presente_indicativo_eu": "averiguo",
+  "presente_indicativo_tu": "averiguas",
+  "presente_indicativo_ele": "averigua",
+  "presente_indicativo_nos": "averiguamos",
+  "presente_indicativo_eles": "averiguam",
+  "preterito_perfeito_eu": "averiguei",
+  "preterito_perfeito_tu": "averiguaste",
+  "preterito_perfeito_ele": "averiguou",
+  "presente_subjuntivo_eu": "averigue",
+  "presente_subjuntivo_tu": "averigues",
+  "presente_subjuntivo_nos": "averiguemos",
+  "gerundio": "averiguando",
+  "participio_regular": "averiguado"
+}

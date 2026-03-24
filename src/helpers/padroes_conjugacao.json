@@ -160,6 +160,10 @@
         "remover_chars": 1,
         "terminacao": "ndo"
       },
+      "imperativo_tu": {
+        "remover_chars": 2,
+        "terminacao": "e"
+      },
       "participio_regular": null
     }
   },
@@ -2798,6 +2802,10 @@
         "remover_chars": 4,
         "terminacao": "oges"
       },
+      "presente_indicativo_eu": {
+        "remover_chars": 3,
+        "terminacao": "jo"
+      },
       "presente_indicativo_ele": {
         "remover_chars": 4,
         "terminacao": "oge"
@@ -2806,15 +2814,31 @@
         "remover_chars": 4,
         "terminacao": "ogem"
       },
+      "presente_subjuntivo_tu": {
+        "remover_chars": 3,
+        "terminacao": "jas"
+      },
+      "presente_subjuntivo_eu": {
+        "remover_chars": 3,
+        "terminacao": "ja"
+      },
+      "presente_subjuntivo_nos": {
+        "remover_chars": 3,
+        "terminacao": "jamos"
+      },
+      "presente_subjuntivo_vos": {
+        "remover_chars": 3,
+        "terminacao": "jamos"
+      },
       "gerundio": {
         "remover_chars": 1,
         "terminacao": "ndo"
       },
-      "participio_regular": null,
       "imperativo_tu": {
         "remover_chars": 4,
         "terminacao": "oge"
-      }
+      },
+      "participio_regular": null
     }
   },
   "GANIÇAR": {

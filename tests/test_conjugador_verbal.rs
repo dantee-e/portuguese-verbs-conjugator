@@ -330,4 +330,93 @@ mod tests {
         .expect("Error converting the file into a serde Value");
         compare_conjugacoes(&result, &compare);
     }
+    #[test]
+    fn conjugar_verbo_averiguar() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "averiguar".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> =
+            serde_json::from_str(include_str!(
+                "arquivos_conjugacoes/verbo_averiguar_conjugacao.json"
+            ))
+            .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_crer() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "crer".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_crer_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_digerir() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "digerir".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_digerir_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_fugir() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "fugir".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_fugir_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_medir() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "medir".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_medir_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_passear() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "passear".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_passear_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_pedir() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "pedir".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_pedir_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
+    #[test]
+    fn conjugar_verbo_sair() {
+        let padroes_hashmap: HashMap<String, Padrao> = get_padroes_conjugacao();
+        let verb = "sair".to_string();
+        let result = conjugar(&verb, &padroes_hashmap);
+        let compare: HashMap<String, String> = serde_json::from_str(
+            include_str!("arquivos_conjugacoes/verbo_sair_conjugacao.json"),
+        )
+        .expect("Error converting the file into a serde Value");
+        compare_conjugacoes(&result, &compare);
+    }
 }

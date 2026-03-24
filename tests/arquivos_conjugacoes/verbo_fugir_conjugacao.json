@@ -1,0 +1,18 @@
+{
+  "presente_indicativo_eu": "fujo",
+  "presente_indicativo_tu": "foges",
+  "presente_indicativo_ele": "foge",
+  "presente_indicativo_nos": "fugimos",
+  "presente_indicativo_vos": "fugis",
+  "presente_indicativo_eles": "fogem",
+  "preterito_perfeito_eu": "fugi",
+  "preterito_perfeito_tu": "fugiste",
+  "preterito_perfeito_ele": "fugiu",
+  "presente_subjuntivo_eu": "fuja",
+  "presente_subjuntivo_tu": "fujas",
+  "presente_subjuntivo_nos": "fujamos",
+  "gerundio": "fugindo",
+  "participio_regular": "fugido",
+  "imperativo_tu": "foge",
+  "imperativo_vos": "fugi"
+}
